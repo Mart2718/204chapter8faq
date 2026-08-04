@@ -1,0 +1,228 @@
+{
+  "section": "8.1-8.2",
+  "title": "Integers: Extending the Number System",
+  "learningObjective": "SLO 8.1: Represent integers using number lines and colored chips, and demonstrate addition, subtraction, and ordering using these models. SLO 8.2: Apply properties of integer operations — closure, commutativity, associativity, distributivity — and solve problems involving all four operations with signed numbers. SLO 8.3: Explain integer multiplication and division through repeated addition, patterns, and missing-factor approaches, and compute using negative exponents and scientific notation. SLO 8.4: Evaluate integer inequality relationships using transitivity and the effects of multiplying by a positive or negative integer.",
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "conceptual",
+      "question": "What are integers, and why does the number system need to extend beyond whole numbers?",
+      "answer": "<p>Your textbook opens Chapter 8 with a direct answer: integers arise because real-world situations require numbers less than zero. \"Whole numbers and fractions are valuable tools for solving a wide range of problems in everyday life. However, many real-world situations call for the use of negative numbers\" (Section 8.1).</p><div class=\"example-box\"><div class=\"label\">The Set of Integers</div><p class=\"math-line\">\\(\\{\\ldots, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, \\ldots\\}\\)</p><p class=\"math-line\">The ellipsis (…) at each end means the integers extend infinitely in both directions.</p></div><div class=\"example-box\"><div class=\"label\">Real-World Contexts for Negative Numbers (Section 8.1)</div><p class=\"math-line\"><strong>Temperature:</strong> 7 degrees below zero = \\(-7^\\circ F\\)</p><p class=\"math-line\"><strong>Elevation:</strong> The Dead Sea is 1,412 feet below sea level = \\(-1412\\) ft. A submarine 500 feet below sea level = \\(-500\\) ft.</p><p class=\"math-line\"><strong>Finance:</strong> An overdrawn bank account of $23 = \\(-\\$23\\)</p><p class=\"math-line\"><strong>Golf:</strong> 5 under par = \\(-5\\) (Morgan in your textbook's golf story)</p></div><div class=\"tip\"><p class=\"math-line\"><strong>For teachers:</strong> Young children encounter negative numbers in real life (thermometers, elevators below lobby, football yardage) before they formally study them. Connecting integers to these familiar contexts is the entry point your textbook uses — and the approach research confirms is most effective for building intuitive understanding.</p></div>"
+    },
+    {
+      "id": "faq-2",
+      "category": "conceptual",
+      "question": "What are opposite numbers, and how do they appear on the number line? Is 0 positive or negative?",
+      "answer": "<p>This is one of your students' most direct questions — and your textbook (Section 8.1) answers it precisely with the number line model (SLO 8.1).</p><div class=\"example-box\"><div class=\"label\">Opposites — Definition and Theorem</div><p class=\"math-line\">The <strong>opposite</strong> of an integer \\(a\\) is \\(-a\\). Opposites are located by reflecting a number through the origin (zero) on the number line.</p><p class=\"math-line\">\\(-5\\) and \\(5\\) are opposites — each is the same distance from 0, on opposite sides.</p><p class=\"math-line\"><strong>Theorem (Opposites of Opposites):</strong> \\(-(-a) = a\\) for any integer \\(a\\).</p><p class=\"math-line\">The opposite of \\(-13\\) is \\(13\\). The opposite of \\(-(-x)\\) is \\(x\\). See FAQ 8 for more on multiple negatives.</p></div><div class=\"example-box\"><div class=\"label\">Is Zero Positive or Negative?</div><p class=\"math-line\">Zero is <strong>neither positive nor negative</strong>. It is the origin — the reference point from which all integers are measured.</p><p class=\"math-line\">\\(|0| = 0\\) — zero is 0 units from itself.</p><p class=\"math-line\">On the number line: negative integers are to the <em>left</em> of zero, positive integers are to the <em>right</em>.</p></div>"
+    },
+    {
+      "id": "faq-3",
+      "category": "conceptual",
+      "question": "What models does the textbook use to teach integer addition, and why is using multiple models important?",
+      "answer": "<p>Your textbook (Section 8.1) explicitly uses two models — and the chapter introduction states directly: integer operations are harder to visualize than whole-number operations, so \"it's essential to use a variety of teaching strategies — manipulatives, real-world analogies, games, and digital tools\" (SLO 8.1).</p><div class=\"example-box\"><div class=\"label\">Model 1: Colored Chips (Set Model)</div><p class=\"math-line\">Blue chips = positive (\\(+1\\)), Red chips = negative (\\(-1\\)), Blue + Red together = <strong>neutral pair</strong> (value 0).</p><p class=\"math-line\">\\(-5 + 3\\): start with 5 red chips, add 3 blue chips, remove 3 neutral pairs → 2 red chips remain → \\(-5 + 3 = -2\\)</p><p class=\"math-line\">Key insight: \"There were more negatives than positives, so the result is negative.\" The chips make this visible without sign rules.</p></div><div class=\"example-box\"><div class=\"label\">Model 2: Number Line (Measurement Model)</div><p class=\"math-line\">Positive integers = arrows pointing <em>right</em>. Negative integers = arrows pointing <em>left</em>. Start at 0; place arrows end-to-end.</p><p class=\"math-line\">\\(3 + (-4)\\): arrow 3 units right, then arrow 4 units left → land on \\(-1\\). ✓</p></div><div class=\"tip\"><p class=\"math-line\"><strong>Why multiple models matter:</strong> Some students grasp the chip model immediately (concrete, visual); others prefer the number line (directional, spatial). A student who only knows one model struggles when that model's logic breaks down. Your textbook models this pluralism throughout Chapter 8 — students who see integer operations from multiple perspectives develop more robust understanding.</p></div>"
+    },
+    {
+      "id": "faq-4",
+      "category": "conceptual",
+      "question": "What are the three approaches to integer subtraction, and which one is most powerful?",
+      "answer": "<p>Your textbook (Section 8.1) presents three distinct approaches to integer subtraction — each revealing a different aspect of the operation (SLO 8.1 & 8.2). The third approach, Adding the Opposite, is the most powerful because it converts every subtraction into addition.</p><div class=\"example-box\"><div class=\"label\">Three Subtraction Approaches</div><p class=\"math-line\"><strong>1. Take-Away (Chip Model):</strong> Remove chips of the appropriate sign. For \\(-5 - 3\\): take 3 positives from 5 negatives — but there are no positives. Add neutral pairs until you have 3 positives, then remove them. Result: \\(-8\\).</p><p class=\"math-line\"><strong>2. Missing Addend:</strong> \\(a - b = c\\) if and only if \\(a = b + c\\). To find \\(4 - (-2)\\): what number, added to \\(-2\\), gives \\(4\\)? Since \\(-2 + 6 = 4\\), the answer is \\(6\\).</p><p class=\"math-line\"><strong>3. Adding the Opposite (most powerful):</strong> \\(a - b = a + (-b)\\) for any integers. Convert every subtraction to addition by replacing the subtrahend with its opposite.</p><p class=\"math-line\">\\(2 - 5 = 2 + (-5) = -3\\)</p><p class=\"math-line\">\\(6 - (-6) = 6 + 6 = 12\\)</p><p class=\"math-line\">\\(-8 - (-3) = -8 + 3 = -5\\)</p></div><div class=\"tip\"><p class=\"math-line\"><strong>Why \"adding the opposite\" is most powerful:</strong> It unifies subtraction with addition, reduces the number of rules students must track, and directly previews algebraic manipulation. When students solve \\(x + 4 = 3\\) by adding \\(-4\\) to both sides, they are using this exact property.</p></div>"
+    },
+    {
+      "id": "faq-5",
+      "category": "conceptual",
+      "question": "Why does multiplying two negative integers produce a positive result?",
+      "answer": "<p>This is one of the most common student questions in all of elementary mathematics — and your textbook answers it with both a concrete chip model and a pattern (inductive reasoning) approach (SLO 8.3). Your students asked: \"I understand 2 negatives equal a positive, but I still want to better understand <em>why</em> it makes a positive.\"</p><div class=\"example-box\"><div class=\"label\">Approach 1: Pattern (Inductive Reasoning — Section 8.2)</div><p class=\"math-line\">Look at this column of products:</p><p class=\"math-line\">\\((-2)(3) = -6\\)</p><p class=\"math-line\">\\((-2)(2) = -4\\)</p><p class=\"math-line\">\\((-2)(1) = -2\\)</p><p class=\"math-line\">\\((-2)(0) = 0\\)</p><p class=\"math-line\">\\((-2)(-1) = ?\\)</p><p class=\"math-line\">The values are increasing by 2 each time (\\(-6, -4, -2, 0, \\ldots\\)). Continuing the pattern: \\((-2)(-1) = 2\\), \\((-2)(-2) = 4\\), \\((-2)(-3) = 6\\). Two negatives produce a positive — not as a rule, but as a consequence of the pattern.</p></div><div class=\"example-box\"><div class=\"label\">Approach 2: Chip Model — Section 8.2</div><p class=\"math-line\">\\((-5) \\times (-3)\\): First number is negative, so we <em>take away</em> 5 groups of \\(-3\\). Start with a set of value 0 (equal red and blue chips). Taking away 5 groups of 3 red chips leaves 15 blue chips = \\(+15\\). ✓</p></div><div class=\"tip\"><p class=\"math-line\"><strong>For teachers:</strong> This is exactly the moment your textbook highlights as crucial: \"Although students can memorize the rules of integer multiplication, it is important for future teachers to understand that these rules are foundational for algebra.\" The pattern approach is inductive reasoning (Chapter 1) applied to Chapter 8.</p></div>"
+    },
+    {
+      "id": "faq-6",
+      "category": "conceptual",
+      "question": "How does integer multiplication connect to division, and what sign rules govern division?",
+      "answer": "<p>Your textbook (Section 8.2) defines integer division through the missing factor approach — mirroring the same connection used for whole number division in Chapter 3 (SLO 8.2 & 8.3).</p><div class=\"example-box\"><div class=\"label\">Division as Missing Factor</div><p class=\"math-line\">\\(a \\div b = c\\) if and only if \\(a = b \\cdot c\\)</p><p class=\"math-line\">\\(12 \\div (-3) = c\\) means \\(12 = (-3) \\cdot c\\). Since \\((-3)(-4) = 12\\), we get \\(c = -4\\). ✓</p><p class=\"math-line\">\\((-15) \\div (-5) = c\\) means \\(-15 = (-5) \\cdot c\\). Since \\((-5)(3) = -15\\), we get \\(c = 3\\). ✓</p></div><div class=\"example-box\"><div class=\"label\">Sign Rules for Division</div><p class=\"math-line\"><strong>Same signs → Positive quotient:</strong> \\(12 \\div 4 = 3\\) and \\((-12) \\div (-4) = 3\\)</p><p class=\"math-line\"><strong>Different signs → Negative quotient:</strong> \\((-12) \\div 4 = -3\\) and \\(12 \\div (-4) = -3\\)</p><p class=\"math-line\">Dividing by \\(-1\\) gives the opposite: \\(8 \\div (-1) = -8\\) and \\(-9 \\div (-1) = 9\\)</p></div><div class=\"caution\"><p class=\"math-line\">⚠️ <strong>Integer division is not always defined in the integers:</strong> \\(7 \\div (-2)\\) has no integer answer (\\(-3.5\\) is not an integer). This is why the integers are not closed under division — just like whole numbers.</p></div>"
+    },
+    {
+      "id": "faq-7",
+      "category": "conceptual",
+      "question": "What are negative exponents, and how do they make the rules of exponents consistent?",
+      "answer": "<p>Your textbook (Section 8.2) introduces negative exponents through a consistency argument — showing that the exponent rules themselves <em>require</em> negative exponents to work properly for all integers (SLO 8.3).</p><div class=\"example-box\"><div class=\"label\">Definition: Negative Integer Exponents</div><p class=\"math-line\">For any nonzero number \\(a\\) and positive integer \\(n\\): \\(a^{-n} = \\dfrac{1}{a^n}\\)</p><p class=\"math-line\">\\(5^{-2} = \\dfrac{1}{5^2} = \\dfrac{1}{25}\\)</p><p class=\"math-line\">\\(2^{-3} = \\dfrac{1}{2^3} = \\dfrac{1}{8}\\)</p></div><div class=\"example-box\"><div class=\"label\">Why This Must Be True — The Consistency Argument</div><p class=\"math-line\">From the product rule: \\(5^3 \\div 5^3 = 5^{3-3} = 5^0 = 1\\) (we know \\(a^0 = 1\\) from Ch. 3)</p><p class=\"math-line\">Now: \\(5^3 \\div 5^5 = 5^{3-5} = 5^{-2}\\). But we also know \\(5^3 \\div 5^5 = \\tfrac{1}{5^2}\\).</p><p class=\"math-line\">Therefore \\(5^{-2} = \\tfrac{1}{5^2}\\) — the definition is forced by the exponent rules being consistent!</p></div><div class=\"tip\"><p class=\"math-line\"><strong>Scientific notation connection (SLO 8.3):</strong> Negative exponents enable scientific notation for <em>small</em> numbers. A human cell mass of \\(0.000000000001\\) kg = \\(1 \\times 10^{-12}\\) kg. Moving the decimal to the right = negative exponent on 10.</p></div>"
+    },
+    {
+      "id": "faq-8",
+      "category": "conceptual",
+      "question": "What are the properties of integer operations, and how do they connect to algebra?",
+      "answer": "<p>Your textbook (Section 8.2) lists the complete set of properties for integer multiplication — and explicitly connects each to algebraic reasoning. As a future teacher, understanding these properties at a deep level is essential (SLO 8.2 & 8.4).</p><div class=\"example-box\"><div class=\"label\">Properties of Integer Multiplication</div><p class=\"math-line\"><strong>Closure:</strong> \\(ab\\) is always an integer. The integers are closed under multiplication.</p><p class=\"math-line\"><strong>Commutative:</strong> \\(ab = ba\\). Addresses your students' question: does \\(8 \\times (-40)\\) equal \\((-40) \\times 8\\)? Yes — same product.</p><p class=\"math-line\"><strong>Associative:</strong> \\((ab)c = a(bc)\\). Parentheses can shift without changing the product.</p><p class=\"math-line\"><strong>Identity:</strong> \\(a \\times 1 = a\\). Multiplying by 1 leaves any integer unchanged.</p><p class=\"math-line\"><strong>Distributive:</strong> \\(a(b + c) = ab + ac\\). Textbook example: \\(-6(x + 2) = -6x + (-12) = -6x - 12\\).</p><p class=\"math-line\"><strong>Zero Divisors Property:</strong> \\(ab = 0\\) if and only if \\(a = 0\\) or \\(b = 0\\). Makes it possible to solve \\((x-2)(x+3)=0\\) in algebra.</p></div><div class=\"example-box\"><div class=\"label\">Multiplying by \\(-1\\) (Theorem 8.2.1)</div><p class=\"math-line\">\\(-1 \\cdot a = -a\\) for any integer \\(a\\). Multiplying by \\(-1\\) gives the opposite.</p><p class=\"math-line\">\\(-1(9) = -9\\) \\(\\quad -1(-6) = 6\\) \\(\\quad -1(-1)(3) = 1 \\cdot 3 = 3\\)</p></div>"
+    },
+    {
+      "id": "faq-9",
+      "category": "conceptual",
+      "question": "What is absolute value, and how is it different from the opposite of a number?",
+      "answer": "<p>Your textbook (Section 8.1) treats absolute value as an optional but important topic for future teachers — and students directly asked about it: \"When do we solve inside the absolute value bars first?\" (SLO 8.1).</p><div class=\"example-box\"><div class=\"label\">Definition: Absolute Value</div><p class=\"math-line\">The <strong>absolute value</strong> of an integer is its <em>distance from zero</em> on the number line. Distance is always nonneg​ative.</p><p class=\"math-line\">\\(|-7| = 7\\) (7 units from 0) \\(\\quad |3| = 3\\) (3 units from 0) \\(\\quad |0| = 0\\)</p></div><div class=\"example-box\"><div class=\"label\">Two Tricky Cases (Your Textbook, Section 8.1)</div><p class=\"math-line\"><strong>Case 1 — Opposite of a value:</strong> \\(-(-8) = 8\\). Take absolute value of \\(-8\\) → no, wait. The <em>opposite</em> of \\(-8\\) is simply \\(8\\). The negative sign flips the sign.</p><p class=\"math-line\"><strong>Case 2 — Opposite of absolute value:</strong> \\(-|-8|\\). First take absolute value: \\(|-8| = 8\\). Then take the opposite: \\(-8\\). So \\(-|-8| = -8\\).</p><p class=\"math-line\">These are distinct: \\(-(-8) = 8\\) but \\(-|-8| = -8\\). The order of operations matters!</p></div><div class=\"example-box\"><div class=\"label\">Your Student's Question: \\(|2 - 4|\\) vs. \\(|2| - |4|\\)</div><p class=\"math-line\">\\(|2 - 4| = |-2| = 2\\) — compute inside the absolute value bars first, then take the absolute value.</p><p class=\"math-line\">\\(|2| - |4| = 2 - 4 = -2\\) — take each absolute value separately, then subtract.</p><p class=\"math-line\">They are different because \\(2 \\neq -2\\). This reflects the triangle inequality: \\(|a - b| \\geq |a| - |b|\\) in general.</p></div>"
+    },
+    {
+      "id": "faq-10",
+      "category": "sticking-points",
+      "question": "Does the order of multiplication matter when signs are involved — for example, is 8 × (−40) the same as (−40) × 8?",
+      "answer": "<p>This was your students' most direct Chapter 8 question: \"I want to know if the order matters when multiplying when the answer is the same.\" Your textbook (Section 8.2) answers this with the Commutative Property (SLO 8.2).</p><div class=\"example-box\"><div class=\"label\">Commutative Property for Integer Multiplication</div><p class=\"math-line\">\\(ab = ba\\) for any integers \\(a\\) and \\(b\\).</p><p class=\"math-line\">\\(8 \\times (-40) = -320\\) \\(\\quad\\) and \\(\\quad (-40) \\times 8 = -320\\) ✓</p><p class=\"math-line\">The order of the factors does <em>not</em> change the product. Both expressions are mathematically identical.</p></div><div class=\"caution\"><p class=\"math-line\">⚠️ <strong>However — for word problems and online homework systems:</strong> Some problems specifically ask for \\(8 \\times (-40)\\) (meaning \"8 groups of \\(-40\\)\") vs. \\((-40) \\times 8\\) (meaning \"\\(-40\\) groups of 8\"). The <em>meaning</em> may differ even though the <em>product</em> is the same. In an online homework system, if the problem asks you to set up an expression that models a specific situation, the order may matter for full credit — even though the arithmetic is the same.</p></div><div class=\"tip\"><p class=\"math-line\"><strong>This is the same issue from Chapter 3:</strong> \\(3 \\times 4\\) and \\(4 \\times 3\\) give the same product but mean different things (3 groups of 4 vs. 4 groups of 3). The commutative property tells us the products are equal; the word problem context tells us which expression models the situation.</p></div>"
+    },
+    {
+      "id": "faq-11",
+      "category": "sticking-points",
+      "question": "Why does adding two negative numbers give a more negative result, not zero or positive?",
+      "answer": "<p>Your student asked this directly: \"Why is it that when we add two negatives it still equals a negative? What is the rule behind that?\" Your textbook (Section 8.1) answers with the chip model and a formal definition (SLO 8.1).</p><div class=\"example-box\"><div class=\"label\">The Rule (Definition of Integer Addition, Case 3)</div><p class=\"math-line\">If \\(a\\) and \\(b\\) are positive integers, then: \\((-a) + (-b) = -(a + b)\\)</p><p class=\"math-line\">\\(-3 + (-4) = -(3 + 4) = -7\\)</p><p class=\"math-line\">\\(-5 + (-3) = -(5 + 3) = -8\\)</p></div><div class=\"example-box\"><div class=\"label\">The Chip Model Explanation</div><p class=\"math-line\">Start with 5 red chips (\\(-5\\)). Add 3 more red chips (\\(-3\\)). You now have 8 red chips = \\(-8\\).</p><p class=\"math-line\">There are no blue chips to create neutral pairs with — every chip is negative. The total debt can only increase when you add more debt.</p></div><div class=\"tip\"><p class=\"math-line\"><strong>Real-world analogy:</strong> If you owe $5 on one card and $3 on another, you owe $8 total — not less. Adding negative quantities is like accumulating debt or diving deeper below sea level. The chip model makes this physically visible: you have more red chips, not fewer.</p></div>"
+    },
+    {
+      "id": "faq-12",
+      "category": "sticking-points",
+      "question": "How do I simplify expressions with multiple negative signs, like −(−x) or −(−4), without getting confused?",
+      "answer": "<p>Your students asked this directly — and it's one of the most notation-heavy challenges in Chapter 8. Your textbook (Section 8.1) addresses it through the Opposites of Opposites property and Theorem 8.2.1 (SLO 8.2).</p><div class=\"example-box\"><div class=\"label\">Two Key Rules</div><p class=\"math-line\"><strong>Rule 1 — Opposites of Opposites:</strong> \\(-(-a) = a\\). The opposite of a negative is positive.</p><p class=\"math-line\">\\(-(-4) = 4\\) \\(\\quad -(-x) = x\\) \\(\\quad -(-(-x)) = -x\\)</p><p class=\"math-line\"><strong>Rule 2 — Multiply by \\(-1\\):</strong> \\(-1 \\cdot a = -a\\). Every negative sign is equivalent to multiplying by \\(-1\\).</p></div><div class=\"example-box\"><div class=\"label\">Counting Negative Signs Strategy</div><p class=\"math-line\">Count the number of negative signs (or negative factors). An <strong>even</strong> number of negatives → <strong>positive</strong>. An <strong>odd</strong> number → <strong>negative</strong>.</p><p class=\"math-line\">\\(-(-4)\\): 2 negatives → positive \\(4\\) ✓</p><p class=\"math-line\">\\(-(-(-x))\\): 3 negatives → negative \\(-x\\) ✓</p><p class=\"math-line\">\\((-2)(-5)(-3)\\): 3 negative factors → \\(-30\\) ✓</p></div><div class=\"caution\"><p class=\"math-line\">⚠️ <strong>Always evaluate inside parentheses first — and watch for absolute value bars:</strong> \\(-(-x)\\) means \"take the opposite of the opposite of x\" = \\(x\\). But \\(-|-x|\\) means \"take the absolute value of \\(-x\\) first, then negate\" = \\(-|x| = -x\\) if \\(x\\) is positive. These are different operations!</p></div>"
+    },
+    {
+      "id": "faq-13",
+      "category": "sticking-points",
+      "question": "What happens to an inequality when you multiply both sides by a negative number?",
+      "answer": "<p>Your textbook (Section 8.2) presents the properties of integer inequality — and one of the most surprising and important results is the effect of multiplying by a negative (SLO 8.4).</p><div class=\"example-box\"><div class=\"label\">Properties of Inequalities (Section 8.2)</div><p class=\"math-line\"><strong>Transitivity:</strong> If \\(a < b\\) and \\(b < c\\), then \\(a < c\\). (Order is preserved through chains.)</p><p class=\"math-line\"><strong>Addition Property:</strong> If \\(a < b\\), then \\(a + c < b + c\\). (Adding the same number to both sides preserves the inequality.)</p><p class=\"math-line\"><strong>Multiply by a POSITIVE:</strong> If \\(a < b\\) and \\(p > 0\\), then \\(ap < bp\\). (Inequality direction is preserved.)</p><p class=\"math-line\"><strong>Multiply by a NEGATIVE:</strong> If \\(a < b\\) and \\(n < 0\\), then \\(an > bn\\). (Inequality direction <strong>reverses</strong>!)</p></div><div class=\"example-box\"><div class=\"label\">Why Does the Inequality Reverse?</div><p class=\"math-line\">We know \\(2 < 5\\). Multiply both sides by \\(-3\\):</p><p class=\"math-line\">\\(2 \\times (-3) = -6\\) and \\(5 \\times (-3) = -15\\). But \\(-6 > -15\\) — the order flipped!</p><p class=\"math-line\">Intuition: multiplying by a negative reflects both values through 0 on the number line, reversing their relative positions.</p></div>"
+    },
+    {
+      "id": "faq-14",
+      "category": "connections",
+      "question": "How does Chapter 8 complete the number system story that began in Chapter 2?",
+      "answer": "<p>Chapter 2 introduced the whole numbers and various numeration systems. Chapter 8 completes the number system hierarchy by adding integers — the key step that makes subtraction always defined.</p><div class=\"example-box\"><div class=\"label\">The Number System Extension Story</div><p class=\"math-line\"><strong>Whole numbers (Ch. 2 & 3):</strong> \\(\\{0, 1, 2, 3, \\ldots\\}\\) — closed under addition and multiplication, NOT subtraction or division.</p><p class=\"math-line\"><strong>Integers (Ch. 8):</strong> \\(\\{\\ldots, -2, -1, 0, 1, 2, \\ldots\\}\\) — closed under addition, subtraction, and multiplication. NOT division (\\(7 \\div 2\\) is not an integer).</p><p class=\"math-line\"><strong>Rational numbers (Chs. 6 & 7):</strong> All fractions \\(\\tfrac{a}{b}\\) — closed under all four operations (except \\(\\div 0\\)).</p><p class=\"math-line\"><strong>Real numbers (Ch. 7):</strong> Rationals + irrationals (\\(\\pi\\), \\(\\sqrt{2}\\), \\ldots) — every point on the number line.</p></div><p>Each extension was motivated by closure: we extend the number system to make operations we care about always possible. Negative numbers complete the integers so subtraction always has an answer. This is one of the most profound organizing ideas in all of mathematics — and it begins in Chapter 2 of your textbook.</p>"
+    },
+    {
+      "id": "faq-15",
+      "category": "connections",
+      "question": "How does integer arithmetic in Chapter 8 prepare students for algebra?",
+      "answer": "<p>Your textbook is explicit: \"The properties of integer operations lay the groundwork for understanding algebraic reasoning and solving equations\" (Chapter 8 Essential Questions). Integers are not just a number system — they are the arithmetic of algebra.</p><div class=\"example-box\"><div class=\"label\">Integer Operations → Algebraic Reasoning</div><p class=\"math-line\"><strong>Additive inverse → Solving equations:</strong> To solve \\(x + 4 = 3\\), add \\(-4\\) to both sides: \\(x = -1\\). The additive inverse property is the engine of equation solving.</p><p class=\"math-line\"><strong>Distributive property → Expanding:</strong> \\(-6(x + 2) = -6x - 12\\). Every polynomial expansion uses the distributive property over integers.</p><p class=\"math-line\"><strong>Zero divisors property → Factoring:</strong> \\((x-2)(x+3) = 0\\) implies \\(x = 2\\) or \\(x = -3\\). This property makes the zero-product principle work.</p><p class=\"math-line\"><strong>Negative exponents → Rational expressions:</strong> \\(x^{-2} = \\tfrac{1}{x^2}\\) is how negative exponents appear in algebra and rational functions.</p><p class=\"math-line\"><strong>Properties of inequality → Solving inequalities:</strong> \"Flip the sign when multiplying by a negative\" is the inequality rule that causes the most algebra errors — and it comes directly from your textbook's Section 8.2.</p></div>"
+    },
+    {
+      "id": "faq-16",
+      "category": "connections",
+      "question": "How do integer operations appear in the real-world contexts elementary teachers use, and why do future teachers need to understand them deeply?",
+      "answer": "<p>Your textbook frames this clearly: children encounter negative numbers in their everyday lives before they formally study them — and their teachers need conceptual understanding deep enough to explain <em>why</em> the rules work, not just what they are.</p><div class=\"example-box\"><div class=\"label\">Real-World Integer Contexts for Elementary Teaching</div><p class=\"math-line\"><strong>Temperature:</strong> \"The temperature was \\(-7°F\\) and rose 12 degrees. What is it now?\" → \\(-7 + 12 = 5°F\\). Addition of integers.</p><p class=\"math-line\"><strong>Elevation / Depth:</strong> \"A submarine is at \\(-500\\) ft and descends 75 more feet.\" → \\(-500 + (-75) = -575\\) ft. Addition of negatives.</p><p class=\"math-line\"><strong>Finance / Banking:</strong> \"Dixie's account had \\$-23\\) and she deposited \\$150. What's her balance?\" → \\(-23 + 150 = \\$127\\).</p><p class=\"math-line\"><strong>Sports / Golf:</strong> \"Morgan scored \\(-5\\) on the golf course (5 under par). Grandpa scored \\(+6\\). What is the difference in scores?\" → \\(-5 - 6 = -11\\). Subtraction of integers.</p><p class=\"math-line\"><strong>Howie Hua's method:</strong> Your textbook embeds a Howie Hua video showing how negative numbers enable left-to-right subtraction without borrowing. \\(72 - 38\\): \\(70 - 30 = 40\\), \\(2 - 8 = -6\\), \\(40 + (-6) = 34\\). This is integers in action at the elementary level.</p></div>"
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid-1",
+      "title": "Instructor-Selected Video — Integer Operations",
+      "url": "https://www.youtube.com/watch?v=FJKPa_95Szs",
+      "description": "Instructor-selected video for Chapter 8 integer operations content — addition, subtraction, multiplication, or division with signed numbers.",
+      "category": "integer-add-sub",
+      "relatedFaqs": ["faq-3", "faq-4"]
+    },
+    {
+      "id": "vid-2",
+      "title": "Howie Hua — Subtracting Left to Right Using Negative Numbers",
+      "url": "https://www.youtube.com/watch?v=WmTpQeCjEFE",
+      "description": "Dr. Howie Hua demonstrates how integers enable left-to-right subtraction without borrowing — embedded directly in Section 8.1.1 of your textbook. This connects the concrete integer arithmetic of Chapter 8 to a mental math strategy for future teachers and their students.",
+      "category": "integer-add-sub",
+      "relatedFaqs": ["faq-4", "faq-16"]
+    },
+    {
+      "id": "vid-3",
+      "title": "MTH211 Section 5.1 Integers, Charge Particle Model & Addition",
+      "url": "https://www.youtube.com/watch?v=RWAJR4S00f4",
+      "description": "Gary Parker introduces the integer number line and the charged particle (chip) model for addition — the two foundational models from Section 8.1 of your textbook. Both blue (positive) and red (negative) chips, neutral pairs, and the set model for addition (SLO 8.1).",
+      "category": "integer-add-sub",
+      "relatedFaqs": ["faq-1", "faq-3"]
+    },
+    {
+      "id": "vid-4",
+      "title": "MTH211 5.1 Subtraction of Integers with Charged Particles",
+      "url": "https://www.youtube.com/watch?v=tJidLBhfyUc",
+      "description": "Gary Parker demonstrates the chip model for integer subtraction — including the take-away approach with neutral pairs — making visible why subtracting a negative is the same as adding a positive (SLO 8.1).",
+      "category": "integer-add-sub",
+      "relatedFaqs": ["faq-4", "faq-11"]
+    },
+    {
+      "id": "vid-5",
+      "title": "MfEST 1 Patterns in Integer Addition, Subtraction & Multiplication",
+      "url": "https://www.youtube.com/watch?v=Ea8aTRPxPVA",
+      "description": "Gary Parker uses pattern-based (inductive) reasoning to develop the sign rules for integer multiplication — the same approach your textbook uses to explain why a negative times a negative is positive (SLO 8.2 & 8.3).",
+      "category": "integer-mult-div",
+      "relatedFaqs": ["faq-5", "faq-12"]
+    },
+    {
+      "id": "vid-6",
+      "title": "MfEST 1 Multiplication and Division of Integers",
+      "url": "https://www.youtube.com/watch?v=5PT3TNGv8Y8",
+      "description": "Gary Parker works through the sign rules for integer multiplication and division, connecting them to the missing-factor definition of division and the properties of integer operations (SLO 8.2 & 8.3).",
+      "category": "integer-mult-div",
+      "relatedFaqs": ["faq-6", "faq-5", "faq-10"]
+    },
+    {
+      "id": "vid-7",
+      "title": "MTH211 5.1 Integers Addition & Subtraction Algorithms",
+      "url": "https://www.youtube.com/watch?v=2KEwoOuMtwM",
+      "description": "Gary Parker covers the formal algorithms for integer addition and subtraction — connecting the concrete chip and number line models to the symbolic rules, and showing the Adding the Opposite approach that unifies all subtraction (SLO 8.1 & 8.2).",
+      "category": "integer-add-sub",
+      "relatedFaqs": ["faq-4", "faq-11", "faq-12"]
+    },
+    {
+      "id": "vid-8",
+      "title": "MfEST 1 Integer Division Model Example",
+      "url": "https://www.youtube.com/watch?v=1k1s_2zW5sY",
+      "description": "Gary Parker works through integer division using the missing-factor definition — showing how the sign rules for division mirror multiplication, and handling special cases like division by \\(-1\\) and the undefined case (SLO 8.2 & 8.3).",
+      "category": "integer-mult-div",
+      "relatedFaqs": ["faq-6", "faq-8"]
+    }
+  ],
+  "apps": [
+    {
+      "id": "app-1",
+      "title": "Build-a-Bear: Integer Challenge",
+      "url": "https://integerarithmetic.netlify.app/",
+      "description": "A game-based integer arithmetic app — practice adding and subtracting positive and negative integers in an engaging Build-a-Bear format. Built to make the chip/counter model from Section 8.1 interactive and fun (SLO 8.1).",
+      "relatedFaqs": ["faq-3", "faq-11"]
+    },
+    {
+      "id": "app-2",
+      "title": "Integer Subtraction Practice",
+      "url": "https://integersubtraction.netlify.app/",
+      "description": "Targeted practice for integer subtraction — the operation students find most confusing, especially when subtracting negatives. Reinforces the Adding the Opposite approach from Section 8.1 (SLO 8.1).",
+      "relatedFaqs": ["faq-4", "faq-12"]
+    },
+    {
+      "id": "app-3",
+      "title": "Power Play: Negative Exponents Explorer",
+      "url": "https://negativeexponents.netlify.app/",
+      "description": "An interactive tool for exploring negative exponents — adjust the base and exponent and watch how decreasing the exponent divides by the base, building the pattern that makes the definition of negative exponents feel inevitable rather than arbitrary (SLO 8.3).",
+      "relatedFaqs": ["faq-7"]
+    }
+  ],
+  "prompts": {
+    "guided": [
+      {
+        "id": "prompt-1",
+        "title": "Help Me Make Sense of Integer Addition and Subtraction",
+        "prompt": "I'm studying Chapter 8 of my Math for Elementary Teachers textbook by Dr. Romero at Santa Ana College. I want to deeply understand integer addition and subtraction — not just the rules, but the models. Can you walk me through five integer computation problems using both the chip model (blue = positive, red = negative, neutral pairs cancel) and the number line model? For each one, explain what the model shows me about why the answer makes sense. Don't just give me the rule — help me see it."
+      },
+      {
+        "id": "prompt-2",
+        "title": "Explain Why Negative × Negative = Positive",
+        "prompt": "My Math for Elementary Teachers textbook (Dr. Romero, Santa Ana College) uses both a chip model and a pattern-based approach to explain why a negative times a negative gives a positive. I understand this rule, but I want to be able to explain it to a skeptical student. Can you show me both approaches — the inductive pattern approach and the chip/take-away approach — and then ask me to explain it back in my own words? I want to be able to explain the why, not just recite the rule."
+      },
+      {
+        "id": "prompt-3",
+        "title": "Help Me Navigate Multiple Negative Signs",
+        "prompt": "I'm confusing myself with expressions like \\(-(-x)\\), \\(-|-x|\\), and \\(-(-4)\\) in Chapter 8 of my Math for Elementary Teachers course (Dr. Romero, Santa Ana College). Can you give me ten expressions involving multiple negative signs and absolute values — without telling me the answers — and let me evaluate each one? For the ones I get wrong, explain exactly which step I made an error on, not just what the right answer is."
+      },
+      {
+        "id": "prompt-4",
+        "title": "Help Me Understand Negative Exponents",
+        "prompt": "My Math for Elementary Teachers textbook (Dr. Romero, Santa Ana College) introduces negative exponents in Chapter 8 and says the definition is forced by the need to make exponent rules consistent. I want to understand this consistency argument deeply. Can you walk me through the reasoning — starting from the quotient rule for exponents — that shows why \\(a^{-n}\\) must equal \\(\\frac{1}{a^n}\\)? Then give me five negative exponent problems to practice, and connect one of them to scientific notation."
+      },
+      {
+        "id": "prompt-5",
+        "title": "Connect Integer Properties to Algebraic Reasoning",
+        "prompt": "My Math for Elementary Teachers textbook (Dr. Romero, Santa Ana College) says in Chapter 8 that integer properties are the foundation of algebra. I want to see these connections explicitly. Can you give me five algebraic scenarios — like solving \\(x + 4 = 3\\), expanding \\(-6(x+2)\\), or solving \\((x-2)(x+3)=0\\) — and for each one, identify exactly which integer property from Chapter 8 is being applied? I want to see how the arithmetic I learned in Chapter 8 becomes the algebra I'll teach later."
+      }
+    ],
+    "open": [
+      {
+        "id": "open-1",
+        "title": "Explore Something You're Curious About",
+        "prompt": "Use the AI tool of your choice. Start by describing something from Chapter 8 (Integers) that you're confused about, curious about, or want to understand more deeply — a sign rule that trips you up, a model that didn't make sense, an expression with multiple negatives you couldn't untangle, or a question about how you'd explain integers to elementary students. Ask the AI to help you explore it. Share what you learned, what surprised you, and one question you still have."
+      }
+    ]
+  }
+}
